@@ -1,0 +1,62 @@
+
+#header-nav {
+  background-color: orange;
+  border-radius: 0;
+  border: 0;
+
+}
+
+#title {  
+  margin: 0;
+  padding:5px;
+  line-height: 5px;
+  color: black;
+} 
+
+ .content{
+  border: 2px solid black;
+  margin: auto;
+  background-color: lightblue;
+  margin-top: 20px;
+  padding: 0px 20px 5px 20px;
+  margin-bottom: 30px;
+}
+
+
+ 
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) { 
+
+  .mobile-menu {
+    padding: 0;
+  }
+
+  #collapsable-nav  { 
+    background-color: silver;
+  }
+    li  { 
+    line-height: 50px;
+    border-bottom: 1px solid black;
+  }
+
+   #colapsable-nav > ul {
+    margin: 0px;
+    background-color: silver;
+  }
+
+
+.navbar-default .navbar-nav > li {
+    border-bottom: 1px solid black;
+  }
+}
