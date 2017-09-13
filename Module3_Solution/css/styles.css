@@ -22,25 +22,7 @@
   margin-bottom: 30px;
 }
 
-
- 
-@media (min-width: 1200px) {
-
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
 @media (max-width: 767px) { 
-
-  .mobile-menu {
-    padding: 0;
-  }
 
   #collapsable-nav  { 
     background-color: silver;
@@ -54,7 +36,6 @@
     margin: 0px;
     background-color: silver;
   }
-
 
 .navbar-default .navbar-nav > li {
     border-bottom: 1px solid black;
